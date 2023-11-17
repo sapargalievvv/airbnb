@@ -1,0 +1,127 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+ }
+
+ body {
+   font-family: "Poppins", sans-serif;
+ }
+
+
+ nav {
+   height: 70px;
+   box-shadow: 0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10);
+ }
+
+ nav img {
+   padding: 22px 33px;
+
+ }
+
+ .hero {
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .people-photo {
+   max-width: 400px;
+   align-self: center;
+ }
+
+ .hero h1 {
+   margin: 32px 0 16px 36px;
+ }
+
+ .hero p {
+   max-width: 350px;
+   color: #222;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 110%;
+   margin-left: 36px;
+ }
+
+ .card {
+   width: 175px;
+   font-size: 12px;
+   flex: 0 0 auto;
+   display: flex; 
+   flex-direction: column;
+   position: relative;
+ }
+
+ .cards-list {
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 20px;
+   overflow-x: auto;
+ }
+
+ section {
+   margin: 20px;
+ }
+
+ .card-title {
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+
+ .card-image {
+   width: 100%;
+   border-radius: 9px;
+
+ }
+
+ .card p {
+   color: #222;
+   font-size: 12px;
+   font-weight: 300;
+   line-height: 110%;
+   margin: 8px 0 0 0;
+
+   /* 13.2px */
+ }
+
+ .card-stats {
+   margin-top: 9px;
+   display: flex;
+   align-items: center;
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 110%;
+
+ }
+
+ .card-price {
+   margin-top: auto;
+ }
+
+ .grey {
+   color: #918E9B;
+   margin-left: 4px;
+ }
+
+ .star {
+   margin-right: 3px;
+   margin-bottom: 1px;
+   height: 12px;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .card-badge{
+   position: absolute;
+   top: 6px;
+   left:6px;
+   background-color: white;
+   padding: 5px 7px;
+   border-radius: 3px;
+   font-weight: bold;
+ }
+
